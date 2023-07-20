@@ -2,7 +2,7 @@ FROM ghcr.io/ltla/emcmake-docker/builder:2023-07-17
 
 RUN git clone https://github.com/kanaverse/scran.js && \
     cd scran.js && \
-    git checkout update
+    git checkout master
 
 WORKDIR scran.js
 
