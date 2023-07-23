@@ -13,3 +13,6 @@ Developers wishing to use the pre-installed Node.js commands should run the foll
 NODEBIN=$(echo /emsdk/node/*/bin)
 export PATH="${NODEBIN}:${PATH}"
 ```
+
+The `/scran.js/` directory contains a copy of the **scran.js** repository, along with a `build/` subdirectory containing an initial CMake build.
+
